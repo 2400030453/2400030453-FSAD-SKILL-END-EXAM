@@ -1,19 +1,13 @@
 package com.klef.fsad.fsadendexam1;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
 import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
-/**
- * Unit test for simple App.
- */
+@SpringBootTest
 public class AppTest {
 
-    /**
-     * Rigorous Test :-)
-     */
     @Test
-    public void shouldAnswerWithTrue() {
-        assertTrue(true);
+    public void contextLoads() {
+        // Test context loading successfully
     }
 }
