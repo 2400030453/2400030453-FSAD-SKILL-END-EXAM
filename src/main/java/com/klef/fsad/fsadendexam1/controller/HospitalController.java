@@ -1,9 +1,9 @@
-package com.klef.fsad.fsadend.exam.controller;
+package com.klef.fsad.fsadendexam1.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import com.klef.fsad.fsadend.exam.entity.Hospital;
-import com.klef.fsad.fsadend.exam.service.HospitalService;
+import com.klef.fsad.fsadendexam1.entity.Hospital;
+import com.klef.fsad.fsadendexam1.service.HospitalService;
 
 @RestController
 @RequestMapping("/hospital")
@@ -23,4 +23,4 @@ public class HospitalController
     {
         return service.getHospital(id);
     }
-} 
+}

@@ -1,7 +1,7 @@
-package com.klef.fsad.fsadend.exam.repository;
+package com.klef.fsad.fsadendexam1.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import com.klef.fsad.fsadend.exam.entity.Hospital;
+import com.klef.fsad.fsadendexam1.entity.Hospital;
 
 public interface HospitalRepository extends JpaRepository<Hospital, Integer>
 {

@@ -1,9 +1,9 @@
-package com.klef.fsad.fsadend.exam.service;
+package com.klef.fsad.fsadendexam1.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.klef.fsad.fsadend.exam.entity.Hospital;
-import com.klef.fsad.fsadend.exam.repository.HospitalRepository;
+import com.klef.fsad.fsadendexam1.entity.Hospital;
+import com.klef.fsad.fsadendexam1.repository.HospitalRepository;
 
 @Service
 public class HospitalService 

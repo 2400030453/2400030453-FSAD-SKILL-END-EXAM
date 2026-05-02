@@ -1,4 +1,4 @@
-package com.klef.fsad.fsadend.exam;
+package com.klef.fsad.fsadendexam1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
